@@ -1,0 +1,9 @@
+.show-results > * {
+    margin-top: 1rem;
+}
+
+.show-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

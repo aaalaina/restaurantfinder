@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import MainPage from "./MainPage/MainPage";
+import Results from "./Results/Results";
+
+import 'react-tabs/style/react-tabs.css';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import Friends from "./Friends/Friends";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <Routes>
+      <Route path='/search' element = {<Results/>}/>
+      <Route path='/' element = {<MainPage/>}/>
+    </Routes> */}
+    <Tabs>
+    <TabList>
+      <Tab>Home</Tab>
+      <Tab>Search</Tab>
+      <Tab>Friends</Tab>
+    </TabList>
+
+    <TabPanel>
+      <MainPage/>
+    </TabPanel>
+    <TabPanel>
+      <Results/>
+    </TabPanel>
+    <TabPanel>
+      <Friends/>
+    </TabPanel>
+  </Tabs>
+  </>
   );
 }
 

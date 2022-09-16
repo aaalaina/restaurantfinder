@@ -1,0 +1,13 @@
+.logo{
+    width: 75px;
+}
+.official-nav{
+    display: flex;
+    background: #d32323;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    margin-left: 1rem;
+}
