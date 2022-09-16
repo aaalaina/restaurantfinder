@@ -6,7 +6,7 @@ export default function ShowResults() {
   // const config = {
   //   headers: {
   //     Authorization:
-  //       "Bearer {pZCzwCvLu67p8WtGveM27-OTL-jV_JJpyGL9-4KhKaDuvQByJ-zWud2VfMzxz_DMhJ541m55ZZTWqXfOv2UR6D-UcZK9tbhuBg7Qs409jwIAtRsr0Kn_i26jnE8jY3Yx}",
+  //       "Bearer {apikey}",
   //   },
   //   params: {
   //     term: "restaurants",
